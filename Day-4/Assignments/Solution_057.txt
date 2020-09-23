@@ -1,2 +1,2 @@
-select substr(roid,2) as NUMERICROID
+select distinct substr(roid,2) as NUMERICROID
 from retailoutlet
